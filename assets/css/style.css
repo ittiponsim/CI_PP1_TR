@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: silver;
+    background-color: #ffffff;
+    padding: o 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* to style Red Chilli Thai Restaurant */
