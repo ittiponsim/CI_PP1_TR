@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: silver;
+}
+
+/* to style Red Chilli Thai Restaurant */
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Main content */
