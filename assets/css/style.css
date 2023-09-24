@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: o 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -92,8 +92,18 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: blanchedalmond;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* media query : tablets and larger ( 768px and up ) */
