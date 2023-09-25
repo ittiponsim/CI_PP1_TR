@@ -18,6 +18,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* to style Red Chilli Thai Restaurant */
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -36,13 +46,7 @@ header a {
     color: inherit;
 }
 
-/* to style Red Chilli Thai Restaurant */
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 #menu {
     font-size: 110%;
@@ -96,6 +100,24 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/thai-food-hero-image1.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* final rgba .7 = trasparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 /* Footer */
@@ -143,17 +165,23 @@ main {
         margin: 0.5rem;
     }
 
-    /* Large devices (laptop and desktop , 992px and up) */
-    @media screen and (min-width:992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
-
-    }
-
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 92px;
     }
+
+    /* hero */
+    #cover-text {
+        width: 500px;
+        right: 50px;
+    }
+}
+
+/* Large devices (laptop and desktop , 992px and up) */
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
 }
