@@ -28,6 +28,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -119,6 +123,7 @@ main {
 #cover-text>h3 {
     color: #ffffff;
 }
+
 /* Reasons section */
 #reasons {
     width: 90%;
@@ -162,6 +167,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 /* Meetup Times section */
 #times {
     background: url('../images/hero-image-thaifood.jpg') no-repeat center/cover;
