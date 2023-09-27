@@ -119,6 +119,32 @@ main {
 #cover-text>h3 {
     color: #ffffff;
 }
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 #circle-cover-bg {
     background: url(../images/thai-food-hero-image1.jpg) no-repeat top center/cover;
@@ -130,8 +156,9 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
 #benefits-image {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -184,20 +211,67 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 92px;
+        margin-top: 79px;
     }
 
-    /* hero */
+    /* Hero */
     #cover-text {
-        width: 500px;
+        width: 300px;
         right: 50px;
     }
+
+    /* Reasons section */
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
+    }
+
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
-/* Large devices (laptop and desktop , 992px and up) */
-@media screen and (min-width:992px) {
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
 
+@media screen and (min-width: 1200px) {
+
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
 }
