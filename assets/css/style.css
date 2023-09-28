@@ -152,7 +152,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url(../images/thai-food-hero-image1.jpg) no-repeat top center/cover;
+    background: url("../images/green-curry.jpeg") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -244,7 +244,7 @@ main {
     }
 
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 0.5rem;
     }
 
     .nav-toggle-label {
