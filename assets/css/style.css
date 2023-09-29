@@ -50,26 +50,107 @@ header a {
     color: inherit;
 }
 
+/* ------------------------------------ Menu page  start here ---------------------- */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #ff5733;
+}
+
+main {
+    padding: 20px;
+}
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#menu>li {
-    margin-bottom: 1em;
+.menu-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
+.menu-item h3 {
+    margin: 10px 0 5px 0;
 }
 
-/* Navbar styles with dropdown toggle */
+.menu-item-description p {
+    margin: 0;
+}
+
+.menu-item-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-item-description .price {
+    display: block;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+#social-networks {
+    list-style: none;
+    padding: 0;
+}
+
+#social-networks li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social-networks li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Navbar styles with dropdown toggle ----------------------- */
 nav {
     position: absolute;
-    background-color: #ffffff;
     max-width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -202,6 +283,207 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* About us */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #ff5733;
+}
+
+main {
+    padding: 20px;
+}
+
+/*       --------------- about us ------------------*/
+#about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Light grey background color */
+    padding: 40px;
+}
+
+.about-us-content {
+    max-width: 600px;
+}
+
+.about-us-content h2 {
+    color: #ff5733;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us-content p {
+    margin-bottom: 10px;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* ------------------- reservation -------------------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #ff5733;
+}
+
+main {
+    padding: 20px;
+}
+
+#reservation {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#reservation h2 {
+    color: #ff5733;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7522b;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+#social-networks {
+    list-style: none;
+    padding: 0;
+}
+
+#social-networks li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social-networks li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ---------------------- footer ----------------------------- */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+#social-networks {
+    list-style: none;
+    padding: 0;
+}
+
+#social-networks li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social-networks li a {
+    text-decoration: none;
+    color: #000;
 }
 
 /* Footer */
