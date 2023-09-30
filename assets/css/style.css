@@ -50,6 +50,7 @@ header a {
     color: inherit;
 }
 
+
 /* ------------------------------------ Menu page  start here ---------------------- */
 
 body {
@@ -103,9 +104,11 @@ main {
 .menu-item {
     border: 1px solid #ccc;
     margin: 10px;
-    padding: 10px;
-    width: calc(33.333% - 20px);
     box-sizing: border-box;
+}
+
+.menu-item-content {
+    display: flex;
 }
 
 .menu-item h3 {
@@ -146,6 +149,15 @@ footer {
 #social-networks li a {
     text-decoration: none;
     color: #000;
+}
+
+/* reservation page */
+.reservation-main {
+    padding-top: 4%;
+}
+
+.menu-main {
+    padding-top: 4%;
 }
 
 /* Navbar styles with dropdown toggle ----------------------- */
@@ -205,45 +217,46 @@ main {
     color: #ffffff;
 }
 
-/* Reasons section */
-#reasons {
+/* enjoy your favorite dishes on site section --------------------------------------- */
+#favorite-dishes {
     width: 90%;
     margin: 20px auto;
 }
 
-#reasons h2 {
+#favorite-dishes h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
-#benefits-physical>div,
-#benefits-mental>div {
+#dishes-left>div,
+#dishes-right>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits p {
+#dishes p {
     padding: 0 20px;
 }
 
-#benefits hr {
+#dishes hr {
     border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 #circle-cover-bg {
-    background: url("../images/green-curry.jpeg") no-repeat top center/cover;
+    background: url("../images/mango-sticky-rice.jpeg") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
+
     /* make the photo circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }
 
-#benefits-image {
+#dishes-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,7 +374,26 @@ main {
 
 
 /* ------------------- reservation -------------------- */
+
+/* Form */
+#reservation-main {
+    background-image: url("../images/mango-sticky-rice.jpeg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    margin-top: 100px;
+    flex-grow: 1;
+}
+
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
 body {
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -552,19 +584,19 @@ footer {
     }
 
     /* Reasons section */
-    #benefits-physical,
-    #benefits-mental {
+    #dishes-left,
+    #dishes-right {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical>div,
-    #benefits-mental>div {
+    #dishes-left>div,
+    #dishes-right>div {
         width: 75%;
     }
 
-    #benefits-mental>div {
+    #dishes-right>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -591,28 +623,28 @@ footer {
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
-    #benefits {
+    #dishes {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits>div {
+    #dishes>div {
         flex: 1;
     }
 
-    #benefits-image {
+    #dishes-image {
         order: 0
     }
 
-    #benefits-mental {
+    #dishes-right {
         order: 1;
     }
 
-    #benefits-mental>div {
+    #dishes-left>div {
         align-self: flex-start;
     }
 
-    #benefits-physical>div {
+    #dishes-right>div {
         align-self: flex-end;
     }
 }
