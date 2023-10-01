@@ -161,15 +161,15 @@ main {
     justify-content: center;
 }
 
-/* Meetup Times section */
-#times {
+/* choices section */
+#items {
     background: url('../images/hero-image-thaifood.jpg') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
 
-#times div {
+#items div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
@@ -182,7 +182,7 @@ main {
     border: 2px solid white;
 }
 
-#times h3 {
+#items h3 {
     /* Override the heading colour set in general styles */
     color: #fafafa;
 }
