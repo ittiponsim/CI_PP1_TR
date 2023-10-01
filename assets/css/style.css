@@ -119,9 +119,9 @@ main {
 /* menu */
 .container {
     max-width: 1200px;
-    margin: 47 2 auto;
+    margin: 0 auto;
     padding: 1.5em;
-  
+
 }
 
 .menu {
@@ -186,6 +186,7 @@ main {
         height: 125px;
     }
 }
+
 /* enjoy your favorite dishes on site section --------------------------------------- */
 #favorite-dishes {
     width: 90%;
@@ -347,6 +348,7 @@ main {
 /* Form */
 #reservation-main {
     background-image: url("../images/mango-sticky-rice.jpeg");
+
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
