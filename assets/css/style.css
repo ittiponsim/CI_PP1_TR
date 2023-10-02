@@ -373,6 +373,7 @@ main {
 }
 #signup-form input, textarea {
     background-color: transparent;
+    color:#ffffff;
 }
 
 body {
