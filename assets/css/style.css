@@ -347,11 +347,11 @@ main {
 
 /* Form */
 #reservation-main {
-    background-image: url("../images/mango-sticky-rice.jpeg");
+    background-image: url("../images/green-curry.jpeg");
 
     background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
+    background-position: 100%;
+    padding: 10% 10% 10% 10%;
     margin-top: 100px;
     flex-grow: 1;
 }
@@ -360,7 +360,14 @@ main {
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(225, 225, 225, 0.8);
+        transition: 0.3s;
     padding: 30px;
+    border-width: 5px;
+        border-color: #ffffff;
+}
+#signup-form input, textarea {
+    background-color: transparent;
 }
 
 body {
