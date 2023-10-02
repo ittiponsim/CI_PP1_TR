@@ -326,19 +326,24 @@ main {
     max-width: 600px;
 }
 
-.about-us-content h2 {
+.about-us-content h1 {
     color: #ff5733;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .about-us-content p {
-    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
 }
 
 .about-us-image img {
     max-width: 100%;
     height: auto;
+}
+#location-header h1 {
+    padding:  50px 0 10px 20px;
 }
 
 
