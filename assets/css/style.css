@@ -263,6 +263,10 @@ main {
     width: 100%;
     line-height: 1em;
 }
+#gallry h2 {
+    padding: 4px px;
+    color:#e7522b;
+}
 
 #photos {
     line-height: 0;
