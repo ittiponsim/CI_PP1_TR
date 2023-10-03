@@ -1,10 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](https://i.otto.de/i/otto/9fa1662b-a7bf-5327-8949-f2785cf12fc3?h=520&w=551&sm=clamp)
+[![Ittipon's GitHub stats](https://github-readme-stats.vercel.app/api?username=ittiponsim)](https://github.com/ittiponsim/github-readme-stats)
 
-Welcome,
+Welcome to Red Chilli Restaurant!
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+At Red Chilli, we invite you to embark on a culinary journey through the vibrant and diverse flavors of Thai cuisine. Nestled in the heart of [location/city], our restaurant is a haven for those seeking an authentic taste of Thailand. Our carefully crafted dishes, infused with aromatic spices and traditional ingredients, promise a delightful gastronomic experience that will tantalize your taste buds and transport you to the bustling streets of Thailand.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+From the sizzling stir-fries to the aromatic curries and refreshing salads, every bite at Red Chilli is a celebration of the rich culinary heritage of Thailand. Our commitment to quality, authenticity, and exceptional service ensures that your dining experience with us is nothing short of memorable.
+
+Join us at Red Chilli and let the symphony of flavors and the warmth of Thai hospitality enchant your senses. Discover the magic that awaits in every dish, crafted with passion and love. We look forward to serving you and making your dining experience truly unforgettable.
+
+Sawasdee Krub! (Greetings!)
+
 
 ## Codeanywhere Reminders
 
