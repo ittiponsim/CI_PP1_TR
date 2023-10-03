@@ -2,6 +2,7 @@
 (Developer: Ittipon Simuang)
 
 ![Mockup image](docs/features/Screenshot 2566-10-03 at 16.22.53.png)
+(/Users/ittisim/Red Chilli_project1/CI_PP1_TR/docs/features/Screenshot 2566-10-03 at 16.23.10.png)
 
 [Live webpage](https://ittiponsim.github.io/CI_PP1_TR/index.html)
 
