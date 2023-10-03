@@ -263,7 +263,7 @@ main {
     width: 100%;
     line-height: 1em;
 }
-#gallry h2 {
+#gallery h2 {
     padding: 4px px;
     color:#e7522b;
 }
@@ -593,6 +593,7 @@ footer {
     #photos {
         column-count: 3;
     }
+    
 
 }
 
