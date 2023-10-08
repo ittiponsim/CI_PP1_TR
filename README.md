@@ -44,6 +44,9 @@ Local residents seeking a dining experience.
 Tourists looking for authentic Thai restaurants.
 Individuals searching for event or party venues.
 </p>
+
+![Mockup image](/docs/features/photo-two.png)
+
     2. [User Requrements and Expectations](#user-requrements-and-expectations)
     <p>Fast and responsive website with quick loading times.
 Clear and organized menu with prices and descriptions.
