@@ -42,8 +42,7 @@ Improve brand visibility and online presence.
     <p>Food enthusiasts interested in Thai cuisine.
 Local residents seeking a dining experience.
 Tourists looking for authentic Thai restaurants.
-Individuals searching for event or party venues.
-</p>
+Individuals searching for event or party venues.</p>
 
 ![Mockup image](/docs/features/photo-two.png)
 
@@ -62,6 +61,8 @@ As a party planner, I want to inquire about event bookings and availability.</p>
     <p>Modern Thai Fusion: A blend of traditional Thai elements with a modern, sleek design.
 Warm Color Palette: Utilize warm and inviting colors to reflect the welcoming ambiance of our restaurant.
 </p>
+
+![Mockup image](/docs/features/photo-three.png)
     2. [Colour](#colours) 
     <p>Primary Colors: Shades of red, gold, and brown for a traditional yet vibrant touch.
 Accent Colors: Complementary shades of green to evoke a sense of freshness and nature.</p>
