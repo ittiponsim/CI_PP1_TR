@@ -75,9 +75,9 @@ A visually appealing layout that mirrors the ambiance of the restaurant.</p>
     5. [Wireframes](#wireframes) 
     <p>Wireframes have been created to guide the layout and structure of the website.</p>
 4. [Technologies Used](#technologies-used)
-    1. [Languages](#languages)
+     [Languages](#languages)
     <p>Languages HTML5, CSS3</p>
-    2. [Frameworks & Tools](#frameworks-&-tools)
+    
 5. [Features](#features)
 <p>GitHub for version control and collaboration.</p>
 6. [Testing](#validation)
