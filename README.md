@@ -80,6 +80,8 @@ A visually appealing layout that mirrors the ambiance of the restaurant.</p>
     
 5. [Features](#features)
 <p>GitHub for version control and collaboration.</p>
+
+![Mockup image](/docs/features/photo-four.png)
 6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     <p>Validate HTML code to ensure compliance with web standards.</p>
@@ -108,6 +110,6 @@ Content: written and curated by the Red Chilli restaurant team. Theme and ispira
 </p>
 11. [Acknowledgements](#acknowledgements)
 <p>We acknowledge the contributions and support of our team and mentors throughout the development process.</p>
-<!-- 
-## Project Goals 
 
+![Mockup image](/docs/features/photo-five.png)
+![Mockup image](/docs/features/photo-six.png)
